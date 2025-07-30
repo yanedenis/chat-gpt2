@@ -1,0 +1,39 @@
+#root {
+  width: 35%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero-content {
+  text-align: left;
+
+  h1 {
+    line-height: 2;
+  }
+}
+
+.chat-icon-wrapper {
+  background-color: #165DFF; /* или #0A84FF, если хочешь ярче */
+  border-radius: 14px;
+  padding: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+}
+
+.chat-icon {
+  font-size: 32px;
+  color: white;
+}
+
+.response {
+  text-align: left;
+  margin-bottom: 2vh;
+  font-size: 20px;
+  background-color: #345083;
+  padding-inline: 10px;
+  padding-block: 6px;
+  width: 70%;
+}

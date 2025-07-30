@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text: #f2f5f8;
+  --background-color: #062d6a;
+  --primary: #1c4c9c;
+  
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color: var(--text);
+  background-color: var(--background-color);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 20%;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}

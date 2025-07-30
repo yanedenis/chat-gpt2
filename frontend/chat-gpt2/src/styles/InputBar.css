@@ -1,0 +1,19 @@
+.input-form {
+  border: 2px solid #1c4c9c;
+  border-radius: 16px;
+
+  input {
+    font-size: 20px;
+    color: white;
+    padding-block: 10px;
+    padding-inline: 16px;
+
+    &::placeholder {
+      color: #ced6e5;
+    }
+  }
+
+  button {
+    border-radius: 14px;
+  }
+}
