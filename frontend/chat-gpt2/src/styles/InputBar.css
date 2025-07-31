@@ -1,4 +1,4 @@
-.input-form {
+.input-bar {
   border: 2px solid #1c4c9c;
   border-radius: 16px;
 
@@ -7,6 +7,7 @@
     color: white;
     padding-block: 10px;
     padding-inline: 16px;
+    padding-left: 0;
 
     &::placeholder {
       color: #ced6e5;
