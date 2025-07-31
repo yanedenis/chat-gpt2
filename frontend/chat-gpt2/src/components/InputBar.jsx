@@ -32,8 +32,6 @@ export default function InputBar({ onClick }) {
     }
   };
 
-
-
   const startListening = () => {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
@@ -49,13 +47,11 @@ export default function InputBar({ onClick }) {
 
     recognition.onstart = () => {
       setIsListening(true);
-      console.log('🎙️ Началось прослушивание...');
     };
 
     recognition.onresult = (event) => {
       const result = event.results[0][0].transcript;
       setQuery(result);
-      console.log('📝 Результат:', result);
     };
 
     recognition.onerror = (event) => {
@@ -64,7 +60,6 @@ export default function InputBar({ onClick }) {
 
     recognition.onend = () => {
       setIsListening(false);
-      console.log('🛑 Прослушивание завершено');
     };
 
     recognitionRef.current = recognition;
